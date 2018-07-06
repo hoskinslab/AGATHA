@@ -22,7 +22,7 @@ function varargout = AGATHA(varargin)
 
 % Edit the above text to modify the response to help AGATHA
 
-% Last Modified by GUIDE v2.5 29-Nov-2017 12:38:01
+% Last Modified by GUIDE v2.5 02-Jul-2018 22:06:16
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -79,7 +79,7 @@ function PH_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 addpath(genpath('PH'));
-GUI_PlLOTING_HISTOGRAM 
+GUI_PLOTTING_HISTOGRAM 
 
 % --- Executes on button press in twocolor.
 function twocolor_Callback(hObject, eventdata, handles)
